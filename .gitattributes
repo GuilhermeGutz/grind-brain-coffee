@@ -1,0 +1,24 @@
+# Força o uso de LF para todos os arquivos de texto
+
+* text eol=lf
+
+# Especifica arquivos binários para garantir que não sejam tratados como texto e não sejam alterados
+*.jpg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.exe binary
+*.dll binary
+
+# Força o uso de LF para arquivos de código fonte específicos (caso precise ser explícito)
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Para arquivos que precisam manter CRLF, caso específico (se houver)
+*.bat text eol=crlf
+*.cmd text eol=crlf

@@ -1,0 +1,6 @@
+export * from './Banner/BannerHalloween'
+export * from './Banner/BannerInfoClub'
+export * from './Carrosel/Carrosel'
+export * from './Header/Header'
+export * from './Merch-Grid/MerchGrid'
+export * from './Product-Grid/ProductGrid'
