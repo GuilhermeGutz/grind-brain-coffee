@@ -1,7 +1,8 @@
 import { Container } from '@mui/material';
-import { Header, Carrosel, ProductGrid, MerchGrid, BannerHalloween, BannerInfoClub } from '../../components/molecules';
+import { Header, ProductGrid, MerchGrid, BannerHalloween, BannerInfoClub, CarroselProducts, CarroselMerch, Footer } from '../../components/molecules';
 
 import robusta_amazonico from '../../assets/banner-club-halloween.svg'
+import logo from '../../assets/logo-header2.svg'
 
 export const Home = () => {
     return(
@@ -9,10 +10,11 @@ export const Home = () => {
             <Header />
             <BannerHalloween imageUrl={robusta_amazonico} />
             <BannerInfoClub />
-            <Carrosel />
+            <CarroselProducts />
             <ProductGrid />
-            <Carrosel />
+            <CarroselMerch />
             <MerchGrid />
+            <Footer imageUrl={logo} />
         </Container>
     )
 };
