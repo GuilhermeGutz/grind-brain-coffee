@@ -4,6 +4,7 @@ import { styled } from '@mui/system';
 import banner_club from '../../../assets/graind-brain-club-card.svg'
 import robusta_amazonico from '../../../assets/carrosel-robusta-amazonico.svg'
 import caramel_banana from '../../../assets/carrosel-caramel-banana.svg'
+import good_drive from '../../../assets/good-drive-edition.svg'
 
 
 const HoverCard = styled(Card)({
@@ -37,6 +38,14 @@ export const ProductGrid = () => {
 
     },
     {
+      id: 4,
+      tittle: 'Good Drive Edition',
+      description: 'Inspired by the great king of Brazilian motorsport, Airton Senna, we created the Good Drive edition for engine enthusiasts. It is the first edition in our Adrenaline category.',
+      message:'Good Drive: The fuel for your day.',
+      imageUrl: good_drive,
+      buttonText: 'View More',
+    },     
+    {
       id: 2,
       tittle: 'Robusta Amazônico',
       description: 'A complex and fresh coffee with a silky and full-bodied texture. High sweetness, medium acidity, and notes of 70% chocolate.',
@@ -51,7 +60,7 @@ export const ProductGrid = () => {
       message:'Tropical flavor, freshness, and sweetness in every sip.',
       imageUrl: caramel_banana,
       buttonText: 'View More',
-    }, 
+    },  
   ];
 
   return (

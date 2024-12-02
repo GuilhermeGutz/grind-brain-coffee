@@ -1,9 +1,10 @@
 import {Grid2, Button, Card, CardContent, Typography, CardMedia } from '@mui/material';
 import { styled } from '@mui/system';
 
-import banner_club from '../../../assets/banner-club.svg'
-import robusta_amazonico from '../../../assets/carrosel-robusta-amazonico.svg'
-import caramel_banana from '../../../assets/carrosel-caramel-banana.svg'
+import halloween_mug from '../../../assets/helloween-mug.svg'
+import double_expresso_tshirt from '../../../assets/double-depresso-tshirt.svg'
+import mug_coffee_or_death from '../../../assets/mug-coffee-or-death.svg'
+import coffee_cap from '../../../assets/coffee-cap.svg'
 
 
 const HoverCard = styled(Card)({
@@ -29,35 +30,35 @@ export const MerchGrid = () => {
   const products = [
     {
       id: 1,
-      tittle: 'MERCH',
-      description: 'Join our subscription club, the Grind Brain Club, and receive a new and exclusive coffee for subscribers every month at your home, along with exclusive samples for you to contribute to the development of our flavors.',
-      message:'Exclusive for members!',
-      imageUrl: banner_club,
+      tittle: 'SPECIAL HALLOWEEN',
+      description: 'Merchandise de Halloween em edição limitada! Garanta itens exclusivos com temas assustadores, disponíveis apenas durante a temporada de Halloween. Não perca!',
+      message:'Exclusive to this year!',
+      imageUrl: halloween_mug,
       buttonText: 'Join Us',
 
     },
     {
       id: 2,
-      tittle: 'Robusta Amazônico',
-      description: 'A complex and fresh coffee with a silky and full-bodied texture. High sweetness, medium acidity, and notes of 70% chocolate.',
-      message:'Limited edition!',
-      imageUrl: robusta_amazonico,
+      tittle: 'Double Depresso Tee',
+      description: 'Got your drip yet? Check out our exclusive tees with killer designs—grab yours before they’re gone!',
+      message:'Cool Tees!',
+      imageUrl: double_expresso_tshirt,
       buttonText: 'View More',
     },
     {
       id: 3,
-      tittle: 'Caramel Banana',
-      description: 'A tropical coffee with notes of caramelized banana, rich sweetness, and balanced acidity. Fresh, liqueur-like, and full of flavor, its the perfect choice for an exotic and unique experience.',
-      message:'Tropical flavor, freshness, and sweetness in every sip.',
-      imageUrl: caramel_banana,
+      tittle: 'Coffee or Death Mug',
+      description: 'Sip in style! Grab our fresh mugs and level up your drink game!',
+      message:'Stylish Mugs!',
+      imageUrl: mug_coffee_or_death,
       buttonText: 'View More',
     },
     {
       id: 4,
-      tittle: 'Caramel Banana',
-      description: 'A tropical coffee with notes of caramelized banana, rich sweetness, and balanced acidity. Fresh, liqueur-like, and full of flavor, its the perfect choice for an exotic and unique experience.',
-      message:'Tropical flavor, freshness, and sweetness in every sip.',
-      imageUrl: caramel_banana,
+      tittle: 'Caps Sunlight',
+      description: 'Protect yourself from the sun in style! Our caps not only complete your look but also help keep your skin safe while you enjoy the outdoors. Stay in the shade of attitude!',
+      message:'Sun Shield Style!',
+      imageUrl: coffee_cap,
       buttonText: 'View More',
     }, 
   ];
